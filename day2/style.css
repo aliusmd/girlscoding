@@ -1,0 +1,20 @@
+body {
+	font-size:28px;
+}
+span {
+	color:#ff0000; 
+	font-size:50px;
+	
+}
+
+body img {
+	max-width: 100%
+}
+
+#important-text {
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.wrapper {
+	background: pink no-repeat url('Images/back.jpg');
+}
