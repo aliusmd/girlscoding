@@ -1,5 +1,10 @@
+
+* {
+	box-sizing: border-box;
+}
 body {
 	font-size:28px;
+	margin: 0;
 }
 span {
 	color:#ff0000; 
@@ -17,4 +22,34 @@ body img {
 
 .wrapper {
 	background: pink no-repeat url('Images/back.jpg');
+	padding: 20px;
+}
+.wrapper a {
+	color: pink !important;
+}
+.wrapper a {
+	color: red !important;
+}
+body a {
+	color: green;
+}
+.posRel {
+	position: relative;
+	top: 50px;
+	left: 100px;
+	background-color: yellow;
+}
+.posAbs {
+	position: absolute;
+	top: 20px; 
+	left :50px;
+
+	background-color: purple;
+	border-radius: 150px;
+	width : 300px;
+	height: 80px;
+	display: block;
+	font-size: 20px;
+	padding-top: 20px;
+
 }
