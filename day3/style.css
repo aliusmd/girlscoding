@@ -1,0 +1,20 @@
+body {
+	height: 1500px;
+}
+.pos-fixed {
+	font-family: 'aspergit';  
+	/*font-family: 'Tillana', cursive;*/
+	position: fixed;
+	bottom: 0;
+	right: 20px;
+	background-color: red;
+	padding: 25px;
+	color: #ffffff;
+	font-size: 100px;
+	border-radius: 5px;
+}
+@font-face{
+	src: url('aspergit.woff');
+	font-family: 'aspergit';
+	font-weight: 100;
+}
